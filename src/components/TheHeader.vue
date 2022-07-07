@@ -10,11 +10,13 @@
     <b-link
       target="_blank"
       href="https://www.linkedin.com/in/gonzalo-barra-valle"
-      ><i class="p-2 bd-highlight fa-brands fa-linkedin fa-2x"></i
+      ><i class="p-2 bd-highlight fa-brands fa-linkedin fa-3x"></i
     ></b-link>
     <b-link target="_blank" href="https://github.com/Gonzalo-Barra"
-      ><i class="p-2 bd-highlight fa-brands fa-github fa-2x"></i
+      ><i class="p-2 bd-highlight fa-brands fa-github fa-3x"></i
     ></b-link>
+    <b-link target="_blank" href="https://docs.google.com/document/d/1Ex27Ve5McLMnhr7pbt5LBCWbH9l1W_FwH8kXaLeigCE/edit"
+      ><b-img class="pb-4  bd-highlight imagen" src="https://i.imgur.com/sHB9oGt.png"></b-img></b-link>
     </div>
 
     
@@ -66,5 +68,11 @@ h5 {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.imagen{
+  width:50px;
+  
+   color: white !important
 }
 </style>

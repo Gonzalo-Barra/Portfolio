@@ -26,7 +26,7 @@
             v-for="item in items1"
             :key="item.id"
           >
-            <b-button :href="item.link" variant="primary">Go Demo</b-button>
+            <b-button target="_blank" :href="item.link" variant="primary">Go Demo</b-button>
           </b-card>
         </b-card-group>
 
@@ -65,34 +65,34 @@ export default {
       items1: [
         {
           name: "eShop",
-          img: "../assets/pages/carritocompras.png",
+          img: "https://i.imgur.com/bBFz4gp.png",
           link: "https://gonzalo-barra.github.io/carrito-compras-vue/",
         },
         {
           name: "Login app",
-          img: "../assets/pages/loginapp.png",
+          img: "https://i.imgur.com/Q34TNbh.png",
           link: "https://gonzalo-barra.github.io/login-app-firebase/",
         },
         {
           name: "gigeoART",
-          img: "../assets/pages/landpage.png",
+          img: "https://i.imgur.com/SlZ5fZS.png",
           link: "https://gonzalo-barra.github.io/GIGEO-APP/",
         },
       ],
       items2: [
         {
           name: "barbershop",
-          img: "../assets/pages/barbershop.png",
+          img: "https://i.imgur.com/KaJzhyz.png",
           link: "https://gonzalo-barra.github.io/Barbershop-blog/",
         },
         {
           name: "ScriptDog",
-          img: "../assets/pages/scriptdog.png",
+          img: "https://i.imgur.com/lXDOafl.png",
           link: "https://scriptdog.cl/",
         },
         {
           name: "Viajes Chile",
-          img: "../assets/pages/viajeschile.png",
+          img: "https://i.imgur.com/MlViIv1.jpg",
           link: "https://gonzalo-barra.github.io/Viajes-Chile/",
         },
       ],

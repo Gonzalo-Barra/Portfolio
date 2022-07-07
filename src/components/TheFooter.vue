@@ -2,25 +2,27 @@
 
   <div  class="footer sticky-bottom d-flex justify-content-around">
     <div>
-      <h6>buscame en</h6>
+      <h6>Buscame en</h6>
       <b-link
         target="_blank"
         href="https://www.linkedin.com/in/gonzalo-barra-valle"
-        ><i class="fa-brands fa-linkedin fa-2x"></i
+        ><i class="fa-brands p-1 fa-linkedin fa-2x"></i
       ></b-link>
       <b-link target="_blank" href="https://github.com/Gonzalo-Barra"
-        ><i class="fa-brands fa-github fa-2x"></i
+        ><i class="fa-brands p-1 fa-github fa-2x"></i
       ></b-link>
+          <b-link target="_blank" href="https://docs.google.com/document/d/1Ex27Ve5McLMnhr7pbt5LBCWbH9l1W_FwH8kXaLeigCE/edit"
+      ><b-img class="pb-3  bd-highlight imagen" src="https://i.imgur.com/sHB9oGt.png"></b-img></b-link>
     </div>
 
     <div>
-      <h6 class="nombre align-middle ">© 2022 Gonzalo Barra</h6>
+      <h6 class="py-4 nombre align-middle ">© 2022 Gonzalo Barra</h6>
     </div>
 
     <div>
       <h6>Hecho con</h6>
-      <i class="fa-brands fa-vuejs fa-2x"></i>
-      <i class="fa-brands fa-bootstrap fa-2x"></i>
+      <i class="fa-brands fa-vuejs fa-2x p-1"></i>
+      <i class="fa-brands fa-bootstrap fa-2x p-1"></i>
     </div>
   </div>
 
@@ -54,5 +56,9 @@ export default {};
 
 h6 {
   color: white;
+}
+
+.imagen{
+    width:35px;
 }
 </style>

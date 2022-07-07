@@ -1,5 +1,5 @@
 <template>
-<d-container fluid>
+
   <div id="app">
     <div>
       <Navbar />
@@ -8,7 +8,7 @@
       <Footer />
     </div>
   </div>
-  </d-container>
+
 </template>
 <script>
 import Navbar from "./components/TheNavbar.vue";

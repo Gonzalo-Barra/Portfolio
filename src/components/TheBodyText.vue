@@ -10,7 +10,7 @@
         >
         <b-row  align-h="center" >
             <b-col cols="12" md="6">
-          <h3 class="titulo ">Acerca de mi</h3>
+          <h3 class="titulo ">Acerca de mí</h3>
           <p class=" text-justify" >
             Titulado de Ingeniería Electrónica de la Universidad Tecnológica de
             Chile, INACAP. Apasionado por el desarrollo web y la tecnología, me
